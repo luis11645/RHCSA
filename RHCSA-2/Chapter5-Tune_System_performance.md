@@ -8,3 +8,7 @@ Defalt profiles are stored in /usr/lib/tuned and custom profiles are stored in /
 `tuned-adm profile`
 `tuned-adm profile_info`
 `tuned-adm recommend`
+
+`renice -n <nice-value> -p <PID> ` change the nice value of runnung process
+`nice -n <nice-value> <command> ` start a process with a assigned nice value
+

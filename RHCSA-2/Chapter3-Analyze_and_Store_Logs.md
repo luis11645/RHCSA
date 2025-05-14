@@ -17,6 +17,8 @@ We can make jouirnal log persisten across reboot editing the file `/etc/systemd/
 * auto
 * none
 
+* `systemctl restart systemd-journald`
+
 We can use the command `journalctl | grep -E 'Runtime Journal|System Journal'` to verify how much space the logs are occupying. By default journal only use 10% of the file system for logs storage.
 
 # 3.9 Maintain Accurate Time #
